@@ -12,4 +12,4 @@ class Solution:
                 res1.append(i)
             else:
                 res2.append(i)
-        return res2 + res1
+        return res2 + res1 
