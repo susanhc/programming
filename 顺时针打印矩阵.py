@@ -37,7 +37,7 @@ class Solution:
         for i in range(col):
             newmat1 = []
             for j in range(row):
-                newmat1.append(matrix[j][i])
+                newmat1.append(matrix[j][i]) 
             newmat.append(newmat1)
         newmat.reverse()
         return newmat
