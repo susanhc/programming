@@ -15,7 +15,6 @@ class Solution:
             return []
         queue = []
         result = []
-
         queue.append(root)
         while len(queue) > 0:
             node = queue.pop(0)
@@ -24,4 +23,5 @@ class Solution:
                 queue.append(node.left)
             if node.right:
                 queue.append(node.right)
-        return result
+        return result 
+ 
